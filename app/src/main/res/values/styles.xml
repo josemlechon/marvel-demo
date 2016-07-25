@@ -1,0 +1,61 @@
+<resources>
+
+
+    <style name="subTileFont" parent="TextAppearance.AppCompat.Medium">
+        <item name="fontPath">fonts/roboto/Roboto-Regular.ttf</item>
+        <item name="android:textSize">@dimen/text_size_subtitle</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+
+    <style name="subTileFont.bold">
+        <item name="fontPath">fonts/roboto/Roboto-Medium.ttf</item>
+    </style>
+
+    <!-- Caption -->
+    <style name="captionFont" parent="TextAppearance.AppCompat.Medium">
+        <item name="fontPath">fonts/roboto/Roboto-Regular.ttf</item>
+        <item name="android:textSize">@dimen/text_size_caption</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <style name="cardViewDef">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="cardElevation">5dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+
+    <style name="titleFont" parent="TextAppearance.AppCompat.Medium">
+        <item name="fontPath">fonts/roboto/Roboto-Medium.ttf</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+
+    <!-- BODY -->
+    <style name="bodyFont" parent="TextAppearance.AppCompat.Medium">
+        <item name="fontPath">fonts/roboto/Roboto-Regular.ttf</item>
+        <item name="android:textSize">@dimen/text_size_body</item>
+        <item name="android:gravity">start</item>
+    </style>
+
+    <style name="bodyFont.bold" >
+        <item name="fontPath">fonts/roboto/Roboto-Medium.ttf</item>
+    </style>
+
+
+    <style name="rootLayout">
+        <item name="android:background">@color/background</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="rootLayout.coordinator">
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.marvel.demo"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_marvel"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name=".app.MarvelApplication"
+
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.ui.home.HomeActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.ui.home.DetailComicActivity"
+            android:label="@string/title_activity_detail_comic"
+            android:parentActivityName=".view.ui.home.HomeActivity"
+            >
+        </activity>
+    </application>
+
+</manifest>

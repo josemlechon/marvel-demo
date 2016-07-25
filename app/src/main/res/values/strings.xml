@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_detail_comic">Comic</string>
+
+
+    <string name="warning_no_network">You have no network, check it out!</string>
+</resources>

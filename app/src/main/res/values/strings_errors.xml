@@ -1,0 +1,6 @@
+<resources>
+
+    <string name="no_network">Upss&#8230; seems you don\'t have network</string>
+
+    <string name="error_unexpected">Sorry, an unexpected error has happened. \n Try again later on.</string>
+</resources>

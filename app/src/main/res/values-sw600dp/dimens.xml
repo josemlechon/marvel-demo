@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- material -->
+    <dimen name="space_content_areas">12dp</dimen>
+    <dimen name="space_right">24dp</dimen>
+    <dimen name="space_left">24dp</dimen>
+    <dimen name="icon_size">32dp</dimen>
+
+
+    <dimen name="small_image_list_width">150dp</dimen>
+    <dimen name="small_image_list_height">150dp</dimen>
+
+
+    <integer name="num_columns_grid">2</integer>
+    <integer name="num_lines_info_item_description">3</integer>
+
+    <fraction name="layout_content_long">95%</fraction>
+
+
+    <dimen name="app_bar_height">250dp</dimen>
+</resources>
